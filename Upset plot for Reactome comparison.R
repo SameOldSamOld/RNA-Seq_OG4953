@@ -1,5 +1,5 @@
 library(UpSetR)
-input <- read.csv("https://raw.githubusercontent.com/SameOldSamOld/RNA-Seq_OG4953/master/REACTOME_COMPARISON_LIST.csv",
+input <- read.csv("https://raw.githubusercontent.com/SameOldSamOld/RNA-Seq_OG4953/master/data/REACTOME_COMPARISON_LIST.csv",
                   row.names = 1)
 
 upset(input,
